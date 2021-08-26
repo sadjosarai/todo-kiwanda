@@ -36,7 +36,7 @@ class Footer extends React.Component{
             href=" "
             target="_blank"
             rel="noopener noreferrer">
-            <Icon>arrow_left</Icon>
+            <Icon className="icon">navigate_previous</Icon>
             Previous Work
           </a>
         </div>
@@ -46,7 +46,7 @@ class Footer extends React.Component{
             target="_blank"
             rel="noopener noreferrer">
             Next Work
-            <Icon>arrow_right</Icon>
+            <Icon className="icon">navigate_next</Icon>
           </a>
         </div>
       </div>
